@@ -1,7 +1,7 @@
 php_variable_prefix
 ===================
 
-I have been using this variables prefixes in order to better organize my codes.
+I have been using this variables prefixes in order to better organize my codes.<br>
 This helps as well when doing any kind of code analysis through an automatet script/tool
 
 <pre>
