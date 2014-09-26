@@ -18,9 +18,14 @@ d - double   - $dPrice
 
 ```php
 <?php
-$aRow    = [1, 2, 3];  // a - array 
-$bExists = true;       // b - boolean 
-$oUser   = new User(); // o - object 
+$aRow      = [1, 2, 3];              // a - array 
+$bExists   = true;                   // b - boolean 
+$oUser     = new User();             // o - object
+$sName     = 'Mathias Grimm'         // s - string 
+$fCallback = function(){echo 'hi';}  // f - function 
+$rFile     = fopen('file.txt', 'r'); // r - resource 
+$iId       = 12312312;               // i - integer 
+$dPrice    = 10.99;                  // d - double 
 
 // m - mixed
 function foo($mParam) 
@@ -34,11 +39,5 @@ $oParam       = new stdClass();
 $oParam->name = 'Mathias'
 
 foo($oParam);
-
-$sName     = 'Mathias Grimm'         // s - string 
-$fCallback = function(){echo 'hi';}  // f - function - 
-$rFile     = fopen('file.txt', 'r'); // r - resource - 
-$iId       = 12312312;               // i - integer  - 
-$dPrice    = 10.99;                  // d - double   - 
 
 ```
