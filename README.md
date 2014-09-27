@@ -6,7 +6,7 @@ This helps as well when doing any kind of code analysis through an automatet scr
 
 Once I had a really nice task (was really nice indeed) to convert an existing system from php4 to php 5.3.<br>
 All was done using a combination of php and shell script with lots of regular expression.<br>
-Actually this was the time when I leraned regular expression.<br>
+Actually this was the time when I learned regular expression.<br>
 
 If we had followed some convetions with variables names, the task would be way easier.<br>
 
