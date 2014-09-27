@@ -12,6 +12,10 @@ If we had followed some convetions with variables names, the task would be way e
 
 Some people say that just a good name is enough but in this case we had many good names that leaded to very nice problems<br>
 Just to give some examples:<br>
+
+Good Bad Names:
+---------------
+
 ```php
 <?php
 $date = new TDate();
