@@ -19,7 +19,7 @@ $date = '2014-09-27';
 
 $today = new TDate();
 $today = '2014-09-27';
-``
+```
 
 <pre>
 a - array    - $aRow
