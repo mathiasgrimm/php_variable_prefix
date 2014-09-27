@@ -19,7 +19,13 @@ $date = '2014-09-27';
 
 $today = new TDate();
 $today = '2014-09-27';
+?>
 ```
+
+
+Now, this is the convetions I have been using:
+----------------------------------------------
+
 
 <pre>
 a - array    - $aRow
@@ -56,5 +62,5 @@ $oParam       = new stdClass();
 $oParam->name = 'Mathias'
 
 foo($oParam);
-
+?>
 ```
