@@ -2,7 +2,24 @@ php_variable_prefix
 ===================
 
 I have been using this variables prefixes in order to better organize my codes.<br>
-This helps as well when doing any kind of code analysis through an automatet script/tool
+This helps as well when doing any kind of code analysis through an automatet script/tool<br>
+
+Once I had a really nice task (was really nice indeed) to convert an existing system from php4 to php 5.3.<br>
+All was done using a combination of php and shell script with lots of regular expression.<br>
+Actually this was the time when I leraned regular expression.<br>
+
+If we had followed some convetions with variables names, the task would be way easier.<br>
+
+Some people say that just a good name is enough but in this case we had many good names that leaded to very nice problems<br>
+Just to give some examples:<br>
+```php
+<?php
+$date = new TDate();
+$date = '2014-09-27';
+
+$today = new TDate();
+$today = '2014-09-27';
+``
 
 <pre>
 a - array    - $aRow
