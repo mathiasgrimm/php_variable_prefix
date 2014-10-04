@@ -1,4 +1,4 @@
-php_variable_prefix
+PHP Variable Prefix
 ===================
 
 I have been using this variables prefixes in order to better organize my codes.<br>
